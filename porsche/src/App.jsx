@@ -1,25 +1,15 @@
 import Footer from "./Footer"
+import PorscheSection from "./componentes/PorscheSection";
 
 function App() {
 
 return (
-<>
-<Footer/>
-</>
+  <>
+  <PorscheSection />
+  <Footer/>
+  </>
 )
 
-}
-
-export default App
-
-import PorscheSection from "./componentes/PorscheSection";
-
-function App() {
-  return (
-    <>
-      <PorscheSection />
-    </>
-  );
 }
 
 export default App;
